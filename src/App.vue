@@ -2,7 +2,7 @@
   <div id="app">
     <Nav />
     <Banner />
-    <Capability />
+    <ShortLink />
     <Project />
     <Contact />
     <Footer />
@@ -12,7 +12,7 @@
 <script>
 import Nav from './components/Nav.vue'
 import Banner from './components/Banner.vue'
-import Capability from './components/Capability.vue'
+import  ShortLink from './components/ShortLink.vue'
 import Project from './components/Project.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
@@ -23,7 +23,7 @@ export default {
   components: {
     Nav,
     Banner,
-    Capability,
+    ShortLink,
     Project,
     Contact,
     Footer

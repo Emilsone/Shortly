@@ -30,21 +30,21 @@
         >
           <li>
             <a
-              class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
+              class="lg:p-4 py-3 px-0 block border-b-2 border-transparent "
               href="#"
               > Features
             </a>
           </li>
           <li>
             <a
-              class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-indigo-400"
+              class="lg:p-4 py-3 px-0 block border-b-2 border-transparent "
               href="#"
               >Pricing</a
             >
           </li>
           <li>
             <a
-              class="lg:p-4 py-4 px-0 block border-b-2 border-transparent hover:border-indigo-400"
+              class="lg:p-4 py-4 px-0 block border-b-2 border-transparent "
               href="#"
               >Resources</a
             >
