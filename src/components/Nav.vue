@@ -1,6 +1,6 @@
 <template>
   <header
-    class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-4"
+    class="lg:px-16 px-6 bg-white flex flex-wrap items-center lg:py-0 py-4 mt-2"
   >
     <div class="flex-1 flex justify-between items-center">
       <a href="#">
@@ -50,7 +50,7 @@
             >
           </li>
           
-         <button class="inline-flex items-center bg-gray-200  border-0 py-2 px-4 focus:outline-none hover:bg-gray-300  rounded-xl text-base mt-4 md:mt-0 btn" >Sign Up
+         <button class="inline-flex items-center bg-gray-200  border-0 py-2 px-6 focus:outline-none hover:bg-gray-300  rounded-xl text-base mt-4 md:mt-0 btn" >Sign Up
        
     </button>
         </ul>
@@ -70,7 +70,11 @@ export default {
   display: block;
 }
 .btn{
-  border-radius:40px;
+  font-size:14px;
+  border-radius:25px;
+  background-color: #2ACFCF;
+  color: #FFFFFF;
+ 
 }
 
 </style>

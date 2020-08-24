@@ -8,7 +8,7 @@
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
       
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4 leading-8">
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Features</h2>
         <nav class="list-none mb-10">
           <li>
@@ -22,7 +22,7 @@
           </li>
         </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4 leading-8">
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Resources</h2>
         <nav class="list-none mb-10">
           <li>
@@ -36,7 +36,7 @@
           </li>
         </nav>
       </div>
-      <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+      <div class="lg:w-1/4 md:w-1/2 w-full px-4 leading-8">
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Company</h2>
         <nav class="list-none mb-10">
           <li>
@@ -100,25 +100,4 @@ export default {
   color: black;
 }
 
-/* @media (max-width: 755px) {
-  .container {
-    flex-direction: column;
-    text-align: center;
-    
-  }
-  .icons {
-    text-align: center;
-    padding: 35px 0px;
-  }
-  .fa-facebook,
-  .fa-twitter,
-  .fa-instagram,
-  .behance {
-    font-size: 13px;
-  }
-  img{
-    display: block;
-    margin: 0px auto;
-  }
-} */
 </style>

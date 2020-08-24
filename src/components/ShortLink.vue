@@ -11,7 +11,7 @@
         </div>
         <div class="p-2">
           <button
-            class="w-full text-white bg-indigo-500 border-0 py-4 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            class="w-full text-white bg-indigo-500 border-0 py-4 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg btn"
           >
             Shorten It
           </button>
@@ -26,5 +26,11 @@ export default {
 };
 </script>
 <style scoped>
-
+.btn{
+  font-size:14px;
+  /* border-radius:25px; */
+  background-color: #2ACFCF;
+  color: #FFFFFF;
+ 
+}
 </style>
