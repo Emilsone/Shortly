@@ -13,7 +13,10 @@
           <div
             class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
           >
-            <!-- <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/720x400" alt="blog"> -->
+          <div class="img-class">
+            <img class="lg:h-12 md:h-36 w-12 ml-4 " src="../assets/icon-brand-recognition.png" alt="blog">
+          </div>
+            
             <div class="p-6 pt-12">
               <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Brand Recognition</h2> -->
               <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
@@ -32,7 +35,7 @@
           <div
             class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
           >
-            <!-- <img class="lg:h-48 md:h-36 w-full object-cover object-center" src="https://dummyimage.com/721x401" alt="blog"> -->
+            <img class="lg:h-12 md:h-36 w-12 ml-4 " src="../assets/icon-detailed-records.png" alt="blog">
             <div class="p-6 pt-12">
               <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2> -->
               <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
@@ -51,7 +54,7 @@
           <div
             class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
           >
-            <!-- <img class="lg:h-12 md:h-36 w-12 object-cover object-center" src="" alt="blog"> -->
+            <img class="lg:h-12 md:h-36 w-12 " src="../assets/icon-fully-customizable.png" alt="blog">
             <div class="p-6 pt-12">
               <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2> -->
               <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
@@ -78,10 +81,11 @@ export default {
 };
 </script>
 <style scoped>
-.card-page {
-  background-color: #012b3d;
-}
-.card-two {
-  background-color: #d9f6f1;
+.img-class{
+    background-color: hsl(260, 8%, 14%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    /* transform: translate(0px,-60%); */
 }
 </style>

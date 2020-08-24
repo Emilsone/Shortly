@@ -1,9 +1,9 @@
 <template>
- <footer class="text-gray-500 bg-gray-900 body-font">
+ <footer class="text-gray-500  body-font">
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-        <span class="ml-3 text-xl">Shortly</span>
+        <span class="ml-3 text-2xl">Shortly</span>
       </a>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
@@ -12,13 +12,13 @@
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Features</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-white">Link Shortening</a>
+            <a class="text-gray-100 hover:text-white">Link Shortening</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-white">Branded Links</a>
+            <a class="text-gray-100 hover:text-white">Branded Links</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-white">Analytics</a>
+            <a class="text-gray-100 hover:text-white">Analytics</a>
           </li>
         </nav>
       </div>
@@ -26,13 +26,13 @@
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Resources</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-white">Blog</a>
+            <a class="text-gray-100 hover:text-white">Blog</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-white">Developers</a>
+            <a class="text-gray-100 hover:text-white">Developers</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-white">Support</a>
+            <a class="text-gray-100 hover:text-white">Support</a>
           </li>
         </nav>
       </div>
@@ -40,16 +40,16 @@
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Company</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-gray-600 hover:text-white">About</a>
+            <a class="text-gray-100 hover:text-white">About</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-white">Our Team</a>
+            <a class="text-gray-100 hover:text-white">Our Team</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-white">Career</a>
+            <a class="text-gray-100 hover:text-white">Career</a>
           </li>
           <li>
-            <a class="text-gray-600 hover:text-white">Contact</a>
+            <a class="text-gray-100 hover:text-white">Contact</a>
           </li>
         </nav>
       </div>
@@ -81,9 +81,9 @@
       </div>
     </div>
   </div>
-  <div class="bg-gray-800">
+  <div class="footer-copyright">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-gray-600 text-sm text-center sm:text-left">© 2020 Created —
+      <p class="text-white text-sm text-center sm:text-left">© 2020 Created —
         <a href="https://twitter.com/Ezekiellawson" rel="noopener noreferrer" class="text-gray-500 ml-1" target="_blank">Emilson</a>
       </p>
     </div>
@@ -97,7 +97,13 @@ export default {
 </script>
 <style scoped>
 .container {
-  color: black;
+  color:white;
+}
+footer{
+  background-color: #000000;  
+}
+.footer-copyright{
+background-color: #242323;
 }
 
 </style>

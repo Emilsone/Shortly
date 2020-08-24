@@ -1,6 +1,6 @@
 <template>
-  <section class="text-gray-700 body-font relative">
-    <div class="lg:w-1/2 md:w-2/3 mx-auto">
+  <section class="text-gray-700 body-font relative section-link">
+    <div class="lg:w-1/2 md:w-2/3 mx-auto ">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-3/4">
           <input
@@ -32,5 +32,15 @@ export default {
   background-color: #2ACFCF;
   color: #FFFFFF;
  
+}
+.section-link{
+  padding: 45px 0px;
+  background-image: url(../assets/bg-shorten-desktop.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-color: hsl(257, 27%, 26%);
+  height: 23vh;
+  width: 90%;
+  margin: 0px 50px;
 }
 </style>
