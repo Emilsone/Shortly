@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-700 body-font mt-24">
+  <section class=" text-black body-font mt-24 section-container">
     <div class="text">
       <h1 class="font-bold text-3xl text-center">Advanced Statistics</h1>
       <p class="font-sm text-sm text-center">
@@ -10,13 +10,18 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-1/3">
+         <div class="img-class">
+              <img
+                class="lg:h-12 md:h-36 w-6 sm:pt-6 pt-0 "
+                src="../assets/icon-brand-recognition.png"
+                alt="blog"
+              />
+            </div>
           <div
-            class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
+            class="h-1/3 border-2 border-gray-200 bg-white rounded-lg overflow-hidden"
           >
-          <div class="img-class">
-            <img class="lg:h-12 md:h-36 w-12 ml-4 " src="../assets/icon-brand-recognition.png" alt="blog">
-          </div>
-            
+           
+
             <div class="p-6 pt-12">
               <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">Brand Recognition</h2> -->
               <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
@@ -27,15 +32,22 @@
                 don’t mean a thing. Branded links help instil confidence in your
                 content..
               </p>
-              
             </div>
           </div>
         </div>
         <div class="p-4 md:w-1/3">
+        <div class="img-class record">
+              <img
+                class="lg:h-12 md:h-36 w-6 sm:pt-6 pt-0  "
+                src="../assets/icon-detailed-records.png"
+                alt="blog"
+              />
+            </div>
           <div
-            class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
+            class="h-1/3 border-2 border-gray-200 bg-white rounded-lg overflow-hidden mt-12"
           >
-            <img class="lg:h-12 md:h-36 w-12 ml-4 " src="../assets/icon-detailed-records.png" alt="blog">
+            
+
             <div class="p-6 pt-12">
               <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2> -->
               <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
@@ -46,15 +58,22 @@
                 where people engage with your content helps inform better
                 decisions.
               </p>
-              
             </div>
           </div>
         </div>
         <div class="p-4 md:w-1/3">
+        <div class="img-class custom">
+              <img
+                class="lg:h-12 md:h-36 sm:w-12 sm:pt-6 pt-0  "
+                src="../assets/icon-fully-customizable.png"
+                alt="customizable-icon"
+              />
+            </div>
           <div
-            class="h-full border-2 border-gray-200 rounded-lg overflow-hidden"
+            class="h-1/3 border-2 border-gray-200 bg-white rounded-lg overflow-hidden mt-24"
           >
-            <img class="lg:h-12 md:h-36 w-12 " src="../assets/icon-fully-customizable.png" alt="blog">
+            
+
             <div class="p-6 pt-12">
               <!-- <h2 class="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">CATEGORY</h2> -->
               <h1 class="title-font text-2xl font-bold text-gray-900 mb-3">
@@ -64,7 +83,6 @@
                 Improve brand awareness and content discoverability through
                 customizable links, supercharging audience engagement.
               </p>
-              
             </div>
           </div>
         </div>
@@ -81,11 +99,63 @@ export default {
 };
 </script>
 <style scoped>
-.img-class{
-    background-color: hsl(260, 8%, 14%);
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    /* transform: translate(0px,-60%); */
+.img-class {
+  position: relative;
+  background-color: hsl(260, 8%, 14%);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  left: 20px;
+  top:30px;
 }
+.custom img{
+  width: 30%;
+  height: 30%;
+}
+.custom{
+  position: relative;
+  background-color: hsl(260, 8%, 14%);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  left: 20px;
+  top:120px;
+}
+.record {
+  position: relative;
+  background-color: hsl(260, 8%, 14%);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  left: 20px;
+  top:80px;
+}
+.img-class img {
+  margin:auto;
+  /* position: absolute; */
+}
+.section-container{
+  background-color: hsl(0, 0%, 75%);
+}
+@media (max-width: 575.98px) {
+  .img-class {
+    padding: 30px;
+    margin: auto;
+    left: 0;
+  }
+}
+@media (max-width: 768px) {
+ .custom{
+  position: none;
+  left: 0;
+  top:120px;
+}
+.record{
+  position: none;
+  left: 0;
+  top:80px;
+}
+}
+
+
 </style>
