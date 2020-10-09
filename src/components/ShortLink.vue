@@ -3,11 +3,13 @@
     <div class="lg:w-1/2 md:w-2/3 mx-auto ">
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-3/4">
+        <label>
           <input
             class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-2 py-4"
             placeholder="Shorten a link here ......."
             type="text"
           />
+          </label>
         </div>
         <div class="p-2">
           <button

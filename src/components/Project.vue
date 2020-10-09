@@ -1,5 +1,5 @@
 <template>
-  <section class=" text-black body-font mt-24 section-container">
+  <section class=" text-black body-font mt-24 section-container py-6">
     <div class="text">
       <h1 class="font-bold text-3xl text-center">Advanced Statistics</h1>
       <p class="font-sm text-sm text-center">

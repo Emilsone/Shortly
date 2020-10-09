@@ -3,7 +3,7 @@
   <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-no-wrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
-        <span class="ml-3 text-2xl">Shortly</span>
+        <span class="ml-3 text-2xl font-bold">Shortly</span>
       </a>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
@@ -83,7 +83,7 @@
   </div>
   <div class="footer-copyright">
     <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-      <p class="text-white text-sm text-center sm:text-left">© 2020 Created —
+      <p class="text-white text-sm text-center sm:text-left">Created —
         <a href="https://twitter.com/Ezekiellawson" rel="noopener noreferrer" class="text-gray-500 ml-1" target="_blank">Emilson</a>
       </p>
     </div>
